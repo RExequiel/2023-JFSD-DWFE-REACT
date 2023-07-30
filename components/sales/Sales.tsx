@@ -1,24 +1,16 @@
-const Sales = () => {
-  const products = [
-    { id: 1, name: 'Cable', price: 10 },
-    { id: 2, name: 'Placa', price: 20 },
-    { id: 3, name: 'Batería', price: 30 },
-    { id: 4, name: 'Luces', price: 15 },
-    { id: 5, name: 'Sensor', price: 25 },
-    { id: 6, name: 'Otro artículo', price: 12 },
-  ];
+import products from "@/database/products.json";
+import ProductCard from "./ProductCard";
 
+const Sales = () => {
   return (
-    <section className="p-4">
-      <h2 className="text-2xl font-bold mb-4">Artículos disponibles</h2>
-      <ul>
-        {products.map((product) => (
-          <li key={product.id} className="mb-2">
-            {product.name} - ${product.price}
-          </li>
-        ))}
-      </ul>
-    </section>
+    <div className="container mx-auto px-4 py-8">
+      <h1 className="text-3xl text-center font-bold mb-6">Productos disponibles</h1>
+      <ProductCard category="Cables" products={products.cables} />
+      <ProductCard category="Placas" products={products.placas} />
+      <ProductCard category="Baterías" products={products.baterias} />
+      <ProductCard category="Luces" products={products.luces} />
+      <ProductCard category="Sensores" products={products.sensores} />
+    </div>
   );
 };
 

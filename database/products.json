@@ -1,0 +1,193 @@
+{
+    "cables": [
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2016/03/26/18/19/iorange-1281041_640.jpg",
+        "title": "Cable USB Tipo-C",
+        "price": 5.99,
+        "description": "Cable de alta calidad para transferencia de datos y carga rápida."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2021/03/03/14/26/hdmi-6065421_640.jpg",
+        "title": "Cable HDMI 2.0",
+        "price": 8.49,
+        "description": "Cable HDMI de alta velocidad para resolución 4K y audio de alta definición."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2014/10/19/19/57/network-cables-494645_640.jpg",
+        "title": "Cable de Red Cat 6",
+        "price": 12.99,
+        "description": "Cable Ethernet para conexiones de red Gigabit y transferencia de datos rápida."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2019/09/23/14/32/cable-4498744_640.jpg",
+        "title": "Cable Micro USB",
+        "price": 3.99,
+        "description": "Cable de carga y sincronización para dispositivos móviles y otros dispositivos compatibles."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2014/07/11/17/27/cables-390077_640.jpg",
+        "title": "Cable RCA de Audio",
+        "price": 6.99,
+        "description": "Cable estéreo para conectar dispositivos de audio a equipos de sonido y altavoces."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2020/05/13/17/46/computer-cables-5168339_640.jpg",
+        "title": "Cable Adaptador DisplayPort a HDMI",
+        "price": 9.99,
+        "description": "Cable que permite conectar dispositivos con DisplayPort a pantallas HDMI."
+      }
+    ],
+    "placas": [
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2017/05/18/17/31/electronics-2324202_640.jpg",
+        "title": "Placa de Desarrollo Arduino UNO",
+        "price": 19.99,
+        "description": "Placa de desarrollo con microcontrolador ATmega328P y amplias posibilidades de programación."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2016/06/01/19/56/board-1429589_640.jpg",
+        "title": "Placa Raspberry Pi 4 Modelo B",
+        "price": 45.99,
+        "description": "Mini computadora con procesador quad-core, 4GB de RAM y puertos USB 3.0."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2021/08/04/20/27/circuit-board-6522546_640.png",
+        "title": "Placa de Prototipado PCB",
+        "price": 8.99,
+        "description": "Placa de circuito impreso para prototipado y pruebas de circuitos electrónicos."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2017/11/15/20/49/seamless-2952534_640.png",
+        "title": "Placa NodeMCU ESP8266",
+        "price": 9.49,
+        "description": "Placa de desarrollo IoT con WiFi integrado y amplias capacidades de conectividad."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2017/04/10/07/57/processor-2217771_640.jpg",
+        "title": "Placa BeagleBone Black",
+        "price": 34.99,
+        "description": "Placa de desarrollo con procesador ARM y amplias interfaces de E/S."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2014/12/11/22/10/board-564815_640.jpg",
+        "title": "Placa Teensy 4.1",
+        "price": 24.99,
+        "description": "Placa de desarrollo con potente microcontrolador y soporte para aplicaciones multimedia."
+      }
+    ],
+    "baterias": [
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2015/11/30/22/54/battery-1071317_640.jpg",
+        "title": "Batería Recargable Li-ion 18650",
+        "price": 4.49,
+        "description": "Batería de litio recargable de alta capacidad para dispositivos electrónicos."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2012/04/16/12/14/battery-35733_640.png",
+        "title": "Batería de Plomo-Ácido 12V 7Ah",
+        "price": 21.99,
+        "description": "Batería sellada de plomo-ácido para sistemas de respaldo de energía y equipos electrónicos."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2018/12/01/23/29/battery-3850484_640.jpg",
+        "title": "Batería AAA Alcalina",
+        "price": 0.99,
+        "description": "Baterías alcalinas de alta calidad para diversos dispositivos electrónicos."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2014/11/27/21/02/battery-548206_640.jpg",
+        "title": "Batería CR2032",
+        "price": 1.49,
+        "description": "Batería de botón de litio para relojes, calculadoras y dispositivos pequeños."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2018/05/25/11/50/power-bank-3428943_640.jpg",
+        "title": "Batería Power Bank 10000mAh",
+        "price": 24.99,
+        "description": "Batería externa para cargar dispositivos móviles mientras estás en movimiento."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2018/08/14/01/06/batteries-3604455_640.jpg",
+        "title": "Batería NiMH AA",
+        "price": 2.99,
+        "description": "Baterías recargables de níquel-metal hidruro para dispositivos electrónicos de consumo."
+      }
+    ],
+    "luces": [
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2016/11/21/15/13/work-harder-1845901_640.jpg",
+        "title": "Tira de Luces LED RGB",
+        "price": 14.99,
+        "description": "Tira flexible de luces LED RGB con control remoto para iluminación ambiental."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2017/08/04/21/52/earth-2581631_640.jpg",
+        "title": "Bombilla Inteligente Wi-Fi",
+        "price": 12.49,
+        "description": "Bombilla LED que se puede controlar mediante una aplicación de smartphone o asistente de voz."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2022/09/06/21/13/energy-saving-7437499_640.jpg",
+        "title": "Foco LED de Exterior",
+        "price": 19.99,
+        "description": "Foco de luz LED resistente al agua para iluminación de exteriores."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2014/05/02/12/45/ceiling-lamp-335975_640.jpg",
+        "title": "Tira de Luces LED Blanco Cálido",
+        "price": 9.99,
+        "description": "Tira de luces LED de tono cálido para crear una atmósfera acogedora en el hogar."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2012/04/13/13/19/crystal-ball-32381_640.png",
+        "title": "Foco Proyector LED 50W",
+        "price": 32.99,
+        "description": "Foco LED de alta potencia para iluminación de áreas exteriores amplias."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2016/03/31/21/37/idea-1296526_640.jpg",
+        "title": "Bombilla LED E27",
+        "price": 6.49,
+        "description": "Bombilla LED estándar con casquillo E27 para reemplazar las bombillas tradicionales."
+      }
+    ],
+    "sensores": [
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2012/04/18/12/07/thermometer-36852_1280.png",
+        "title": "Sensor de Temperatura y Humedad DHT22",
+        "price": 8.99,
+        "description": "Sensor digital de alta precisión para medir la temperatura y humedad ambiental."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2016/01/12/15/22/thermostat-1135811_640.jpg",
+        "title": "Sensor de Movimiento PIR",
+        "price": 6.49,
+        "description": "Sensor de infrarrojos pasivo para detectar movimiento en áreas específicas."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2013/07/12/17/56/sensor-152662_640.png",
+        "title": "Sensor de Luz LDR",
+        "price": 2.99,
+        "description": "Sensor de luz para medir la intensidad lumínica del entorno."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2017/01/31/15/06/citizen-2024886_640.png",
+        "title": "Sensor de Distancia por Ultrasonidos",
+        "price": 10.99,
+        "description": "Sensor que utiliza ultrasonidos para medir distancias con precisión."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2014/04/05/11/29/smoke-315874_640.jpg",
+        "title": "Sensor de Gas MQ-2",
+        "price": 5.99,
+        "description": "Sensor para detectar diferentes tipos de gases inflamables y humo."
+      },
+      {
+        "URLImage": "https://cdn.pixabay.com/photo/2015/02/25/11/39/robot-648622_640.jpg",
+        "title": "Sensor de Peso y Fuerza",
+        "price": 7.49,
+        "description": "Sensor de carga para medir el peso y la fuerza aplicada en aplicaciones industriales."
+      }
+    ]
+  }
+  

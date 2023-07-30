@@ -1,11 +1,17 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+
+  const pathname = usePathname();
+  const isActiveAbout = pathname.startsWith("/about");
+  const isActiveSales = pathname.startsWith("/sales");
+  const isActiveContact = pathname.startsWith("/contact");
 
   const handleToggleMenu = () => {
     setIsOpen(!isOpen);
@@ -17,27 +23,60 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-blue-500 p-4 flex items-center justify-between">
-      <div className="flex items-center">
+      <div className="flex justify-between items-center">
         <Link href="/">
-          <p className="text-slate-950 text-2xl font-bold mr-4"><Image className="inline-flex" src="/misiotronica.png" width={30} height={30} alt="misiotronica-logo" /> isiotrónica</p>
+          <p className="text-slate-950 text-2xl font-bold mr-4">
+            <Image
+              className="inline-flex"
+              src="/misiotronica.png"
+              width={30}
+              height={30}
+              alt="misiotronica-logo"
+            />{" "}
+            isiotrónica
+          </p>
         </Link>
         <input
           type="text"
           placeholder="Buscar..."
           value={searchTerm}
           onChange={handleSearch}
-          className="border rounded-lg p-2 hidden md:block"
+          className="border rounded-lg p-2 hidden md:block text-gray-700 focus:outline-none focus:ring focus:border-blue-300"
         />
       </div>
       <div className="md:flex space-x-4">
-        <Link href="/about">
-          <span className="text-slate-950 font-semibold hidden md:block">Sobre Nosotros</span>
-        </Link>
         <Link href="/sales">
-          <span className="text-slate-950 font-semibold hidden md:block">Ventas</span>
+          <span
+            className={
+              isActiveSales
+                ? "text-white underline font-semibold hidden md:block"
+                : "text-slate-950 font-semibold hidden md:block"
+            }
+          >
+            Ventas
+          </span>
+        </Link>
+        <Link href="/about">
+          <span
+            className={
+              isActiveAbout
+                ? "text-white underline font-semibold hidden md:block"
+                : "text-slate-950 font-semibold hidden md:block"
+            }
+          >
+            Sobre Nosotros
+          </span>
         </Link>
         <Link href="/contact">
-          <span className="text-slate-950 font-semibold hidden md:block">Contacto</span>
+          <span
+            className={
+              isActiveContact
+                ? "text-white underline font-semibold hidden md:block"
+                : "text-slate-950 font-semibold hidden md:block"
+            }
+          >
+            Contacto
+          </span>
         </Link>
       </div>
       <button
@@ -50,18 +89,42 @@ const Navbar: React.FC = () => {
         <div className="md:hidden absolute top-16 right-0 bg-blue-500 p-4">
           <ul className="space-y-4">
             <li>
-              <Link href="/about">
-                <span className="text-slate-950 font-semibold">Sobre Nosotros</span>
+              <Link href="/sales">
+                <span
+                  className={
+                    isActiveSales
+                      ? "text-white underline font-semibold"
+                      : "text-slate-950 font-semibold"
+                  }
+                >
+                  Ventas
+                </span>
               </Link>
             </li>
             <li>
-              <Link href="/sales">
-                <span className="text-slate-950 font-semibold">Venta</span>
+              <Link href="/about">
+                <span
+                  className={
+                    isActiveAbout
+                      ? "text-white underline font-semibold"
+                      : "text-slate-950 font-semibold"
+                  }
+                >
+                  Sobre Nosotros
+                </span>
               </Link>
             </li>
             <li>
               <Link href="/contact">
-                <span className="text-slate-950 font-semibold">Contacto</span>
+                <span
+                  className={
+                    isActiveContact
+                      ? "text-white underline font-semibold"
+                      : "text-slate-950 font-semibold"
+                  }
+                >
+                  Contacto
+                </span>
               </Link>
             </li>
           </ul>
