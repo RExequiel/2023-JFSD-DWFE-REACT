@@ -14,8 +14,10 @@ const FAQModal: React.FC = () => {
   return (
     <section>
       <div>
-        <h2 className="text-xl text-center font-semibold mb-4">Preguntas frecuentes</h2>
-        <ul className="md:px-72">
+        <h2 className="text-xl text-center font-semibold mb-4">
+          Preguntas frecuentes
+        </h2>
+        <ul className="md:px-28">
           {faqData.map((faq, index) => (
             <li key={index} className="mb-4">
               <button

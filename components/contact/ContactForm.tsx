@@ -11,15 +11,15 @@ const ContactForm: React.FC = () => {
     console.log("Nombre:", name);
     console.log("Email:", email);
     console.log("Mensaje:", message);
-    alert("Datos enviados correctamente")
+    alert("Datos enviados correctamente");
     setName("");
     setEmail("");
     setMessage("");
   };
 
   return (
-    <section className="flex items-center justify-center">
-      <form className="w-7/12" onSubmit={handleSubmit}>
+    <section className="md:flex md:items-center md:justify-center md:gap-5">
+      <form className=" md:w-5/12" onSubmit={handleSubmit}>
         <h2 className="text-2xl text-center font-bold mb-4">Contáctenos</h2>
         <div className="mb-4">
           <label
@@ -79,6 +79,16 @@ const ContactForm: React.FC = () => {
           Enviar
         </button>
       </form>
+      <div className=" md:w-5/12 flex items-center py-5 justify-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13101.707455862792!2d-58.2234697!3d-34.82035855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1690794533004!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
   );
 };
