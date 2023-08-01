@@ -1,4 +1,4 @@
-import { Sales } from "@/components/sales";
+import { Sales } from "@/src/components/sales";
 
 export default function SalesPage() {
     return (

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "@/utils/about.json";
+import about from "@/src/utils/about.json";
 
 const CardItems = () => {
   return (

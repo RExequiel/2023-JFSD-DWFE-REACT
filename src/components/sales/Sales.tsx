@@ -1,4 +1,4 @@
-import products from "@/database/products.json";
+import products from "@/src/database/products.json";
 import ProductCard from "./ProductCard";
 
 const Sales = () => {
